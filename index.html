@@ -48,7 +48,6 @@
       a:hover {
         text-decoration: underline;
       }
-
       .skills-section {
         text-align: center;
         padding: 60px;
@@ -62,12 +61,10 @@
         font-weight: bold;
       }
 
-      /* Category wrapper */
       .skills-category {
         margin-bottom: 60px;
       }
 
-      /* Category title with logo + text */
       .category-title {
         display: flex;
         align-items: center;
@@ -87,7 +84,6 @@
         font-weight: bold;
       }
 
-      /* Grid for skills */
       .skills-grid {
         display: flex;
         justify-content: center;
@@ -99,15 +95,15 @@
         background-color: white;
         border-radius: 15px;
         padding: 20px;
-        width: 120px;
+        width: 150px;
         box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease;
         animation: float 4s ease-in-out infinite;
       }
 
       .skill-card img {
-        width: 60px;
-        height: 60px;
+        width: 90px;
+        height: 90px;
         margin-bottom: 10px;
       }
 
@@ -117,13 +113,11 @@
         color: #000035;
       }
 
-      /* Hover */
       .skill-card:hover {
         transform: translateY(-12px) scale(1.05);
         box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
       }
 
-      /* Floating animation */
       @keyframes float {
         0% {
           transform: translateY(0px);
@@ -136,7 +130,7 @@
         }
       }
 
-      /* Staggered animation delays */
+      
       .skill-card:nth-child(2) {
         animation-delay: 0.5s;
       }
@@ -184,237 +178,410 @@
               <a style="color: #000035" class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item" style="font-size: 20px; font-weight: 600">
-              <a style="color: #000035" class="nav-link" href="#">About</a>
+              <a style="color: #000035" class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item" style="font-size: 20px; font-weight: 600">
-              <a style="color: #000035" class="nav-link" href="#">Skills</a>
-            </li>
-            <li class="nav-item" style="font-size: 20px; font-weight: 600">
-              <a style="color: #000035" class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item" style="font-size: 20px; font-weight: 600">
-              <a style="color: #000035" class="nav-link" href="#"
-                >Certifications</a
+              <a style="color: #000035" class="nav-link" href="#skills"
+                >Skills</a
               >
             </li>
             <li class="nav-item" style="font-size: 20px; font-weight: 600">
-              <a style="color: #000035" class="nav-link" href="#">Contact</a>
+              <a style="color: #000035" class="nav-link" href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item" style="font-size: 20px; font-weight: 600">
+              <a style="color: #000035" class="nav-link" href="#certificates"
+                >Certifications</a
+              >
+            </li>
+
+            <li class="nav-item" style="font-size: 20px; font-weight: 600">
+              <a style="color: #000035" class="nav-link" href="#contact"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section id="home" style="margin-top: 100px; margin-left: 150px">
-      <div style="display: flex">
-        <div class="home-contents mt-5" style="width: 50%">
-          <h1 style="font-family: Oswald, sans-serif; margin-top: 70px">
-            Hi,
-            <img
-              class="animate__animated animate__shakeX"
-              src="https://images.emojiterra.com/microsoft/fluent-emoji/15.1/512px/1f44b_color.png"
-              style="width: 50px; margin-bottom: 20px"
-              alt=""
-            /><br />I'm Nishana N
-          </h1>
+    <section id="home" class="mt-5 pt-5">
+      <div class="container mt-5">
+        <div class="row align-items-center text-center text-md-start">
+          <div class="col-md-6 mb-4" data-aos="fade-down-right">
+            <h1 style="font-family: Oswald, sans-serif; margin-top: 70px">
+              Hi,
+              <img
+                class="animate__animated animate__shakeX"
+                src="https://images.emojiterra.com/microsoft/fluent-emoji/15.1/512px/1f44b_color.png"
+                style="width: 50px; margin-bottom: 20px"
+                alt=""
+              /><br />I'm Nishana N
+            </h1>
 
-          <h4 style="font-family: Oswald, sans-serif">
-            MEA(R)N Stack Developer
-          </h4>
-          <p class="mt-4" style="text-align: justify; font-size: 17px">
-            Enthusiastic about building clean, efficient, and user-friendly web
-            applications. As a MEA(R)N Stack Developer, I focus on transforming
-            ideas into responsive, high-quality digital solutions that make an
-            impact.
-          </p>
-          <a
-            style="background-color: #000035; color: white"
-            class="btn"
-            target="_blank"
-            href="./assests/NISHANA_RESUME (1).pdf"
-            >Download CV</a
-          >
-
-          <div class="d-flex gap-2">
+            <h4 style="font-family: Oswald, sans-serif">
+              B.Tech CS Graduate | MEA(R)N Stack Developer
+            </h4>
+            <p class="mt-4" style="text-align: justify; font-size: 17px">
+              Enthusiastic about building clean, efficient, and user-friendly
+              web applications. As a MEA(R)N Stack Developer, I focus on
+              transforming ideas into responsive, high-quality digital solutions
+              that make an impact.
+            </p>
             <a
+              style="background-color: #000035; color: white"
+              class="btn"
               target="_blank"
-              href="https://www.linkedin.com/in/nishana-n-nizar/"
-              ><i
-                class="fa-brands fa-linkedin"
-                style="color: #000035; font-size: 30px; margin-top: 30px"
-              ></i
-            ></a>
-            <a target="_blank " href="https://github.com/Nishana02"
-              ><i
-                class="fa-brands fa-github"
-                style="color: #000035; font-size: 30px; margin-top: 30px"
-              ></i
-            ></a>
-            <a href="nizarnishana2@gmail.com"
-              ><i
-                class="fa-solid fa-envelope"
-                style="color: #000035; font-size: 30px; margin-top: 30px"
-              ></i
-            ></a>
-          </div>
-        </div>
+              href="./assests/Nishana_Resume (2).pdf"
+              >Download CV</a
+            >
 
-        <div style="width: 50%" data-aos="flip-left">
-          <img
-            class="img-fluid"
-            src="./assests/Untitled design (1).png"
-            alt=""
-            width="500px"
-            height="400px"
-            style="margin-left: 80px; margin-bottom: -200px"
-          />
+            <div class="d-flex gap-2">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/nishana-n-nizar/"
+                ><i
+                  class="fa-brands fa-linkedin"
+                  style="color: #000035; font-size: 30px; margin-top: 30px"
+                ></i
+              ></a>
+              <a target="_blank " href="https://github.com/Nishana02"
+                ><i
+                  class="fa-brands fa-github"
+                  style="color: #000035; font-size: 30px; margin-top: 30px"
+                ></i
+              ></a>
+              <a href="nizarnishana2@gmail.com"
+                ><i
+                  class="fa-solid fa-envelope"
+                  style="color: #000035; font-size: 30px; margin-top: 30px"
+                ></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-left">
+            <img
+              class="img-fluid"
+              src="./assests/Untitled design (1).png"
+              alt=""
+              width="500px"
+              height="400px"
+              style="margin-left: 140px; margin-bottom: -100px"
+            />
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="about" style="margin-top: 200px">
-      <h1 class="text-center" style="font-weight: 600">About Me</h1>
-      <div class="d-flex">
-        <div class="about-images mt-5" style="width: 50%; margin-left: 150px">
-          <img
-            class="rounded-4"
-            src=" https://img.freepik.com/free-photo/celebration-labour-day-with-3d-cartoon-portrait-working-woman_23-2151306545.jpg?semt=ais_hybrid&w=740&q=80"
-            alt=""
-            width="500px;"
-          />
-        </div>
-        <div
-          class="about-contents"
-          style="width: 45%; margin-right: 190px; margin-top: 100px"
-        >
-          <p style="text-align: justify">
-            I am a highly motivated Computer Science Engineering graduate with a
-            strong foundation in full-stack development. Currently, I am honing
-            my skills as a MERN Stack Developer intern at Luminar Technolab,
-            with a passion for building responsive and user-friendly web
-            applications. My expertise includes Python, Django, and modern web
-            technologies, which I've applied in projects like a CNN-powered fish
-            species recognition system and an e-waste management platform. I am
-            eager to apply my problem-solving abilities and technical knowledge
-            to create innovative solutions in a dynamic environment.
-          </p>
+    <section id="about" class="pt-5" style="margin-top: 200px">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-4">About Me</h2>
+        <div class="row align-items-center mt-5">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+            <img
+              class="rounded-4"
+              src=" https://img.freepik.com/free-photo/celebration-labour-day-with-3d-cartoon-portrait-working-woman_23-2151306545.jpg?semt=ais_hybrid&w=740&q=80"
+              alt=""
+              width="500px;"
+            />
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0 w-50" data-aos="fade-left" w>
+            <p style="text-align: justify">
+              I am a highly motivated Computer Science Engineering graduate with
+              a strong foundation in full-stack development. Currently, I am
+              honing my skills as a MERN Stack Developer intern at Luminar
+              Technolab, with a passion for building responsive and
+              user-friendly web applications. My expertise includes Python,
+              Django, and modern web technologies, which I've applied in
+              projects like a CNN-powered fish species recognition system and an
+              e-waste management platform. I am eager to apply my
+              problem-solving abilities and technical knowledge to create
+              innovative solutions in a dynamic environment.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <section
+      id="skills"
       class="skills-section"
-      style="background-color: white; margin-top: 200px"
+      style="background-color: white; margin-top: 180px"
     >
-      <h2>My Skills</h2>
+      <div class="container">
+        <h2 class="text-center">My Skills</h2>
 
-      <div class="skills-category">
-        <div class="category-title">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png"
-            alt="Web Icon"
-            class="category-icon"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-            alt="Frontend Logo"
-          />
-          <h3>Frontend</h3>
-        </div>
-        <div class="skills-grid">
-          <div class="skill-card">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-              alt="HTML"
-            />
-            <p>HTML</p>
+        <div class="skills-category mt-5">
+          <div class="skills-title text-center mb-4">
+            <h4 class="fw-bold">Web Technologies</h4>
           </div>
-          <div class="skill-card">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-              alt="CSS"
-            />
-            <p>CSS</p>
-          </div>
-          <div class="skill-card">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-              alt="Bootstrap"
-            />
-            <p>Bootstrap</p>
-          </div>
-          <div class="skill-card">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-              alt="JavaScript"
-            />
-            <p>JavaScript</p>
+          <div class="row justify-content-center gy-4">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in">
+              <div class="skill-card mx-auto">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  alt="HTML"
+                  width="90"
+                  height="90"
+                />
+                <p>HTML</p>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in">
+              <div class="skill-card mx-auto">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  alt="CSS"
+                  width="90"
+                  height="90"
+                />
+                <p>CSS</p>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in">
+              <div class="skill-card mx-auto">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                  alt="Bootstrap"
+                  width="90"
+                  height="90"
+                />
+                <p>Bootstrap</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="skills-category">
-        <div class="category-title">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-            alt="Programming Logo"
-          />
-          <h3>Programming</h3>
-        </div>
-        <div class="skills-grid">
-          <div class="skill-card">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-              alt="C"
-            />
-            <p>C</p>
+        <div class="skills-category mt-5">
+          <div class="skills-title text-center mb-4">
+            <h4 class="fw-bold">Programming</h4>
           </div>
-          <div class="skill-card">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-              alt="Python"
-            />
-            <p>Python</p>
+          <div class="row justify-content-center gy-4">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in">
+              <div class="skill-card mx-auto">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                  alt="C"
+                  width="90"
+                  height="90"
+                />
+                <p>C</p>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in">
+              <div class="skill-card mx-auto">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  alt="Python"
+                  width="90"
+                  height="90"
+                />
+                <p>Python</p>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in">
+              <div class="skill-card mx-auto">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript"
+                  width="90"
+                  height="90"
+                />
+                <p>JavaScript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category mt-5">
+          <div class="skills-title text-center mb-4">
+            <h4 class="fw-bold">Database</h4>
+          </div>
+          <div class="row justify-content-center gy-4">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in">
+              <div class="skill-card mx-auto">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png"
+                  alt="SQL"
+                  width="90"
+                  height="90"
+                />
+                <p>SQL</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="projects container">
+    <section id="projects" class="mt-5 pt-5">
       <div class="container">
-        <h1 class="text-center mt-5">Projects</h1>
-      </div>
-      <div class="project1 container d-flex mt-5 ms-4">
-        <div class="project1-images">
-          <img
-            class="rounded-4"
-            src="./assests/project1.png"
-            alt=""
-            width="550px"
-          />
-        </div>
-        <div class="project1-contents" style="margin-left: 150px; width: 500px">
-          <h4 class="mt-3">Cosmic Wizard Project</h4>
-          <p style="text-align: justify; margin-top: 20px">
-            An immersive character website for 'Cosmic Wizard' built with HTML
-            and CSS. Features interactive sections including character stats,
-            magical inventory, and cosmic lore in a dark fantasy aesthetic."
-          </p>
-          <div class="projectcode" style="margin-bottom: 200px">
+        <h2 class="text-center fw-bold mb-5">Projects</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6" data-aos="fade-right">
+            <img
+              src="./assests/project1.png"
+              class="img-fluid rounded-3"
+              alt="Project 1"
+            />
+          </div>
+          <div class="col-md-6 mb-5" data-aos="fade-left">
+            <h4>Cosmic Wizard Project</h4>
+            <p>
+              An immersive character website for 'Cosmic Wizard' built with HTML
+              and CSS. Features interactive sections including character stats,
+              magical inventory, and cosmic lore in a dark fantasy aesthetic.
+            </p>
             <a
-              style="text-decoration: none; color: #000035; font-size: 17px"
-              target="_blank "
-              href="https://github.com/Nishana02"
-              ><i
-                class="fa-brands fa-github"
-                style="color: #000035; font-size: 20px; margin-top: 30px"
-              ></i
-              >GitHub</a
+              href="https://github.com/Nishana02/CosmicWizard.git"
+              class="me-3 text-decoration-none fw-semibold"
+              target="_blank"
+              ><i class="fa-brands fa-github me-1"></i>GitHub</a
+            >
+            <a
+              href="https://nishana02.github.io/CosmicWizard/"
+              class="text-decoration-none fw-semibold"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square me-1"></i>Live
+              Demo</a
             >
           </div>
         </div>
+
+        <div class="row gy-5 align-items-center mt-5">
+          <div class="col-md-6 order-2 order-md-1" data-aos="fade-right">
+            <h4>Qahwa Restaurant</h4>
+            <p>
+              A responsive restaurant website using semantic HTML and structured
+              layout to showcase brand story and menu visually in a clean,
+              accessible format.
+            </p>
+            <a
+              href="https://github.com/Nishana02/restaurantQahwa.git"
+              class="me-3 text-decoration-none fw-semibold"
+              target="_blank"
+              ><i class="fa-brands fa-github me-1"></i>GitHub</a
+            >
+            <a
+              href="https://nishana02.github.io/restaurantQahwa/"
+              class="text-decoration-none fw-semibold"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square me-1"></i>Live
+              Demo</a
+            >
+          </div>
+          <div class="col-md-6 order-1 order-md-2" data-aos="fade-left">
+            <img
+              src="./assests/restaurant.png"
+              class="img-fluid rounded-3"
+              alt="Project 2"
+            />
+          </div>
+        </div>
       </div>
     </section>
+
+    <section id="certificates" class="pt-5" style="margin-top: 180px">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">Certifications</h2>
+        <div class="row gy-4 justify-content-center">
+          <div class="col-10 col-sm-6 col-md-4" data-aos="fade-right">
+            <div class="card">
+              <img
+                src="./assests/certificate1.jpg"
+                class="card-img-top"
+                alt="Certificate1"
+                height="310px"
+                width="200px"
+              />
+              <div class="card-body">
+                <h6 class="card-title text-center fw-bold">
+                  NPTEL: The Joy of Computing Using Python
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-md-4" data-aos="fade-right">
+            <div class="card">
+              <img
+                src="./assests/certificate2.png"
+                class="card-img-top"
+                alt="Certificate2"
+              />
+              <div class="card-body">
+                <h6 class="card-title text-center fw-bold">
+                  Internshala Web Development
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-md-4" data-aos="fade-right">
+            <div class="card">
+              <img
+                src="./assests/certificate3.png"
+                class="card-img-top"
+                alt="Certificate3"
+              />
+              <div class="card-body">
+                <h6 class="card-title text-center fw-bold">HackerRank SQL</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="m pt-5 mb-5" style="margin-top: 180px">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Contact Me</h2>
+        <div class="contact-container d-flex justify-content-center gap-5">
+          <div class="contact-image" data-aos="zoom-in">
+            <img
+              src="https://irfan-devs.vercel.app/assets/mail-BMCaIb3X.png"
+              alt="Contact"
+              class="img-fluid me-5"
+              width="500"
+            />
+          </div>
+          <form
+            class="rounded-4 p-3 text-start"
+            style="
+              border: 4px solid #000035;
+              background-color: #000035;
+              width: 100%;
+              max-width: 400px;
+              color: white;
+              margin-left: 100px;
+              margin-top: 70px;
+            "
+          >
+            <div class="mb-3">
+              <label for="name" class="form-label text-light">NAME</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label text-light"
+                >EMAIL ADDRESS</label
+              >
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label text-light">MESSAGE</label>
+              <textarea id="message" class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-light w-100">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer style="margin-top: 200px">
+      <p class="text-center fw-bold">
+        &copy Portfolio Website - 2025 Nishana N | All Rights Reserved
+      </p>
+    </footer>
   </body>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
